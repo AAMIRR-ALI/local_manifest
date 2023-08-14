@@ -1,1 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<manifest>
+ 
+<remote name="mine" fetch="https://github.com/AAMIRR-ALI" />
+
+
+
+ 
+<!-- Trees -->
+<project path="device/realme/sm8250-common" name="device_realme_sm8250-common" remote="mine" revision="tiramisu-stable" />
+
+<project path="device/realme/bladerunner" name="device_realme_bladerunner" remote="mine" revision="tiramisu-stable" />
+
+<project path="vendor/realme/bladerunner" name="android_vendor_realme_bladerunner" remote="mine" revision="Tiramisu" />
+<project path="vendor/realme/sm8250-common" name="android_vendor_realme-sm8250-common" remote="mine" revision="Tiramisu" />
+
+
+ 
+
+<!-- Op-Extra -->
+<project path="packages/apps/OPlusExtras name="packages_apps_OPlusExtras" remote="mine" revision="tiramisu" />
+ 
+
+</manifest>
